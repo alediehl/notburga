@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta id="meta-description" name="description" content="Hilfe für schwangere Mütter in Not - anonym, kostenlos, vertraulich." />
+  <title id="page-title">Verein Notburga - Hilfe für schwangere Mütter in Not</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <a id="skip-link" class="skip-link" href="#inhalt">Direkt zum Inhalt</a>
+
+  <header class="site-header">
+    <div class="brand-wrap">
+      <p id="brand" class="brand">Verein Notburga</p>
+      <p id="tagline" class="tagline">Begleitung in schwierigen Zeiten</p>
+    </div>
+
+    <nav id="main-nav" class="main-nav" aria-label="Hauptnavigation">
+      <a id="nav-soforthilfe" href="#soforthilfe" class="tab-link is-active" data-tab="soforthilfe">Soforthilfe</a>
+      <a id="nav-angebote" href="#angebote" class="tab-link" data-tab="angebote">Angebote</a>
+      <a id="nav-spenden" href="#spenden" class="tab-link" data-tab="spenden">Spenden</a>
+    </nav>
+  </header>
+
+  <main id="inhalt">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p id="hero-eyebrow" class="eyebrow">Sicher. Vertraulich. Kostenfrei.</p>
+        <h1 id="hero-title">Wir sind für dich da - anonym, kostenlos, jederzeit.</h1>
+        <p id="hero-lead" class="lead">
+          Wenn du schwanger bist und nicht weiterweißt, sind wir sofort da.
+          Ohne Druck, ohne Urteil, mit Respekt für deinen Weg.
+        </p>
+
+        <div class="hero-actions">
+          <a id="hero-btn-soforthilfe" class="btn btn-primary" href="#soforthilfe">Soforthilfe</a>
+          <a id="hero-btn-beratung" class="btn btn-secondary" href="#angebote">Beratung ansehen</a>
+          <a id="hero-btn-spenden" class="btn btn-ghost" href="#spenden">Unterstützen / Spenden</a>
+        </div>
+      </div>
+
+      <figure id="hero-figure" class="hero-media" aria-label="Wärme und Nähe">
+        <img
+          id="hero-image"
+          src="{{ url_for('static', filename='start-site.png') }}"
+          alt="Warmes, beruhigendes Bild mit Nähe und Unterstützung"
+          loading="lazy"
+        />
+      </figure>
+    </section>
+
+    <section id="soforthilfe" class="panel" data-section="soforthilfe" aria-labelledby="soforthilfe-title">
+      <div class="panel-head">
+        <p id="soforthilfe-kicker" class="panel-kicker">Tab 1</p>
+        <h2 id="soforthilfe-title">Soforthilfe</h2>
+      </div>
+
+      <div class="grid two-up">
+        <article class="card emergency">
+          <h3 id="soforthilfe-card-title">Ich brauche sofort Hilfe</h3>
+          <p id="soforthilfe-card-text">Rufe uns an. Wir hören zu, geben Halt und finden mit dir den nächsten sicheren Schritt.</p>
+          <p class="contact-line"><strong id="helpline-label">Helpline:</strong> <a id="helpline-number" href="tel:+41792121067">79 212 10 67</a></p>
+          <a id="soforthilfe-call-btn" class="btn btn-danger" href="tel:+41792121067">Jetzt anrufen</a>
+        </article>
+
+        <article class="card">
+          <h3 id="kontaktablauf-title">So läuft der erste Kontakt ab</h3>
+          <ol>
+            <li id="kontaktablauf-step-1">Du schreibst oder rufst an.</li>
+            <li id="kontaktablauf-step-2">Wir hören dir zu und fragen nur das Notwendige.</li>
+            <li id="kontaktablauf-step-3">Du entscheidest, welche Hilfe du möchtest.</li>
+            <li id="kontaktablauf-step-4">Wir organisieren mit dir die nächsten Schritte.</li>
+          </ol>
+          <p id="privacy-note" class="privacy-note">Hinweis: Du kannst anonym bleiben. Wir nutzen keine Tracking-Cookies ohne Einwilligung.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="angebote" class="panel" data-section="angebote" aria-labelledby="angebote-title">
+      <div class="panel-head">
+        <p id="angebote-kicker" class="panel-kicker">Tab 2</p>
+        <h2 id="angebote-title">Angebote</h2>
+      </div>
+
+      <article class="card section-intro">
+        <p id="angebote-intro">
+          Wir stehen Schwangeren und Müttern in Notlagen kompetent, einfühlsam und unbürokratisch zur Seite.
+        </p>
+      </article>
+
+      <div class="grid offer-grid">
+        <article class="card offer">
+          <h3 id="angebot-1-title">Beratung bei ungeplanter Schwangerschaft</h3>
+          <p id="angebot-1-text">Wir begleiten dich und helfen dir, wieder Orientierung zu finden.</p>
+        </article>
+
+        <article class="card offer">
+          <h3 id="angebot-2-title">Psychosoziale Unterstützung</h3>
+          <p id="angebot-2-text">Entlastende Gespräche, Stabilisierung und stärkende Begleitung in emotional schwierigen Momenten.</p>
+        </article>
+
+        <article class="card offer">
+          <h3 id="angebot-3-title">Unterstützung vor und nach der Geburt</h3>
+          <p id="angebot-3-text">Wir helfen dir bei Sorgen rund um deine Schwangerschaft - schnell, kompetent und unbürokratisch.</p>
+        </article>
+
+        <article class="card offer">
+          <h3 id="angebot-4-title">Juristische Hilfe</h3>
+          <p id="angebot-4-text">Orientierung bei rechtlichen Themen wie Sorgerecht, Unterhalt oder Schutzmaßnahmen.</p>
+        </article>
+      </div>
+
+      <article class="card gut-zu-wissen" aria-labelledby="wissen-title">
+        <h3 id="wissen-title">Gut zu wissen</h3>
+        <ul>
+          <li id="wissen-item-1"><strong>Wie schnell?</strong> Rasch und unbürokratisch.</li>
+          <li id="wissen-item-2"><strong>Für wen?</strong> Für Schwangere und Mütter vor und nach der Geburt in Not.</li>
+          <li id="wissen-item-3"><strong>Was kostet es?</strong> Unsere Hilfe ist kostenlos.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="spenden" class="panel" data-section="spenden" aria-labelledby="spenden-title">
+      <div class="panel-head">
+        <p id="spenden-kicker" class="panel-kicker">Tab 3</p>
+        <h2 id="spenden-title">Spenden</h2>
+      </div>
+
+      <div class="grid two-up">
+        <article class="card">
+          <h3 id="spenden-why-title">Warum deine Hilfe wirkt</h3>
+          <p id="spenden-why-text">
+            Wir arbeiten ehrenamtlich, kompetent und mit viel Herz. Jede Unterstützung hilft unmittelbar
+            Frauen und Kindern in schwierigen Lebenssituationen.
+          </p>
+          <ul>
+            <li id="spenden-item-1"><strong>Ihre Spende wirkt direkt:</strong> Jeder Beitrag fließt vollständig in die Unterstützung von schwangeren Frauen, Müttern und ihren Kindern in akuten Notsituationen.</li>
+            <li id="spenden-item-2"><strong>Unsere Haltung:</strong> Wir arbeiten lebensbejahend und begleiten Frauen auf ihrem Weg.</li>
+            <li id="spenden-item-3"><strong>Wir unterstützen keine Abtreibung.</strong></li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3 id="mitwirken-title">Unterstützen und mitwirken</h3>
+          <p id="mitwirken-text">Zeit schenken ist genauso wertvoll wie Geld. Wir freuen uns über Menschen, die sich engagieren möchten.</p>
+          <div class="donation-actions">
+            <a id="spenden-btn-once" class="btn btn-primary" href="#">Einmalig spenden</a>
+            <a id="spenden-btn-monthly" class="btn btn-secondary" href="#">Monatlich spenden</a>
+            <a id="spenden-btn-volunteer" class="btn btn-ghost" href="#">Ehrenamt anfragen</a>
+          </div>
+          <p id="spenden-note" class="small-note">Erfolgsgeschichten teilen wir nur anonymisiert und mit Schutz der Privatsphäre.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <button id="emergency-fab" class="emergency-fab" type="button" data-jump="#soforthilfe" aria-label="Zur Soforthilfe springen">
+    Hilfe jetzt
+  </button>
+
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

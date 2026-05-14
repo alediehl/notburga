@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "description": "Hilfe für schwangere Mütter in Not - anonym, kostenlos, vertraulich.",
+    "title": "Verein Notburga - Hilfe für schwangere Mütter in Not"
+  },
+  "a11y": {
+    "skipLink": "Direkt zum Inhalt",
+    "mainNavLabel": "Hauptnavigation",
+    "heroFigureLabel": "Wärme und Nähe",
+    "heroImageAlt": "Warmes, beruhigendes Bild mit Nähe und Unterstützung",
+    "emergencyFabLabel": "Zur Soforthilfe springen"
+  },
+  "header": {
+    "brand": "Verein Notburga",
+    "tagline": "Begleitung in schwierigen Zeiten",
+    "nav": {
+      "soforthilfe": "Soforthilfe",
+      "angebote": "Angebote",
+      "spenden": "Spenden"
+    }
+  },
+  "hero": {
+    "eyebrow": "Sicher. Vertraulich. Kostenfrei.",
+    "title": "Wir sind für dich da - anonym, kostenlos, jederzeit.",
+    "lead": "Wenn du schwanger bist und nicht weiterweißt, sind wir sofort da. Ohne Druck, ohne Urteil, mit Respekt für deinen Weg.",
+    "imageSrc": "/static/start-site.png",
+    "buttons": {
+      "soforthilfe": "Soforthilfe",
+      "beratung": "Beratung ansehen",
+      "spenden": "Unterstützen / Spenden"
+    }
+  },
+  "soforthilfe": {
+    "kicker": "Tab 1",
+    "title": "Soforthilfe",
+    "cardTitle": "Ich brauche sofort Hilfe",
+    "cardText": "Rufe uns an. Wir hören zu, geben Halt und finden mit dir den nächsten sicheren Schritt.",
+    "helplineLabel": "Helpline:",
+    "helplineDisplay": "79 212 10 67",
+    "helplineHref": "tel:+41792121067",
+    "callButton": "Jetzt anrufen",
+    "flowTitle": "So läuft der erste Kontakt ab",
+    "steps": [
+      "Du schreibst oder rufst an.",
+      "Wir hören dir zu und fragen nur das Notwendige.",
+      "Du entscheidest, welche Hilfe du möchtest.",
+      "Wir organisieren mit dir die nächsten Schritte."
+    ],
+    "privacyNote": "Hinweis: Du kannst anonym bleiben. Wir nutzen keine Tracking-Cookies ohne Einwilligung."
+  },
+  "angebote": {
+    "kicker": "Tab 2",
+    "title": "Angebote",
+    "intro": "Wir stehen Schwangeren und Müttern in Notlagen kompetent, einfühlsam und unbürokratisch zur Seite.",
+    "items": [
+      {
+        "title": "Beratung bei ungeplanter Schwangerschaft",
+        "text": "Wir begleiten dich und helfen dir, wieder Orientierung zu finden."
+      },
+      {
+        "title": "Psychosoziale Unterstützung",
+        "text": "Entlastende Gespräche, Stabilisierung und stärkende Begleitung in emotional schwierigen Momenten."
+      },
+      {
+        "title": "Unterstützung vor und nach der Geburt",
+        "text": "Wir helfen dir bei Sorgen rund um deine Schwangerschaft - schnell, kompetent und unbürokratisch."
+      },
+      {
+        "title": "Juristische Beratung",
+        "text": "Orientierung bei rechtlichen Themen wie Sorgerecht, Unterhalt oder Schutzmaßnahmen."
+      }
+    ],
+    "gutZuWissenTitle": "Gut zu wissen",
+    "gutZuWissen": [
+      "<strong>Wie schnell?</strong> Rasch und unbürokratisch.",
+      "<strong>Für wen?</strong> Für Schwangere und Mütter vor und nach der Geburt in Not.",
+      "<strong>Was kostet es?</strong> Unsere Hilfe ist kostenlos."
+    ]
+  },
+  "spenden": {
+    "kicker": "Tab 3",
+    "title": "Spenden",
+    "whyTitle": "Warum deine Hilfe wirkt",
+    "whyText": "Wir arbeiten ehrenamtlich, kompetent und mit viel Herz. Jede Unterstützung hilft unmittelbar Frauen und Kindern in schwierigen Lebenssituationen.",
+    "points": [
+      "<strong>Ihre Spende wirkt direkt:</strong> Jeder Beitrag fließt vollständig in die Unterstützung von schwangeren Frauen, Müttern und ihren Kindern in akuten Notsituationen.",
+      "<strong>Unsere Haltung:</strong> Wir arbeiten lebensbejahend und begleiten Frauen auf ihrem Weg.",
+      "<strong>Wir unterstützen keine Abtreibung.</strong>"
+    ],
+    "mitwirkenTitle": "Unterstützen und mitwirken",
+    "mitwirkenText": "Zeit schenken ist genauso wertvoll wie Geld. Wir freuen uns über Menschen, die sich engagieren möchten.",
+    "buttons": {
+      "once": "Einmalig spenden",
+      "monthly": "Monatlich spenden",
+      "volunteer": "Ehrenamt anfragen"
+    },
+    "note": "Erfolgsgeschichten teilen wir nur anonymisiert und mit Schutz der Privatsphäre."
+  },
+  "floating": {
+    "helpNow": "Hilfe jetzt"
+  }
+}
