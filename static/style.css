@@ -294,6 +294,24 @@ h1 {
   font-size: 0.95rem;
 }
 
+.payment-box {
+  margin-top: 1rem;
+  padding: 0.9rem 1rem;
+  background: #f7fbff;
+  border: 1px solid #d1deea;
+  border-radius: var(--radius-md);
+}
+
+.payment-box h4 {
+  margin: 0 0 0.45rem;
+  font-size: 1.05rem;
+}
+
+.payment-line,
+.payment-recipient {
+  margin: 0.25rem 0;
+}
+
 .contact-card {
   margin-top: 1rem;
 }

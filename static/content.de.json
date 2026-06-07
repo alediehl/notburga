@@ -89,6 +89,17 @@
     ],
     "mitwirkenTitle": "Unterstützen und mitwirken",
     "mitwirkenText": "Zeit schenken ist genauso wertvoll wie Geld. Wir freuen uns über Menschen, die sich engagieren möchten.",
+    "paymentTitle": "Spendenkonto",
+    "payment": {
+      "ibanLabel": "IBAN:",
+      "ibanValue": "CH90 0900 0000 8742 4090 2",
+      "recipientLabel": "Zahlbar an:",
+      "recipientLines": [
+        "Notburga",
+        "Schaffhauserstrasse 281",
+        "8057 Zurich"
+      ]
+    },
     "buttons": {
       "once": "Einmalig spenden",
       "monthly": "Monatlich spenden",

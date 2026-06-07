@@ -97,6 +97,13 @@ function applyContent(content) {
   setHtml('spenden-item-3', content.spenden?.points?.[2]);
   setText('mitwirken-title', content.spenden?.mitwirkenTitle);
   setText('mitwirken-text', content.spenden?.mitwirkenText);
+  setText('spenden-payment-title', content.spenden?.paymentTitle);
+  setText('spenden-iban-label', content.spenden?.payment?.ibanLabel);
+  setText('spenden-iban-value', content.spenden?.payment?.ibanValue);
+  setText('spenden-recipient-label', content.spenden?.payment?.recipientLabel);
+  setText('spenden-recipient-line-1', content.spenden?.payment?.recipientLines?.[0]);
+  setText('spenden-recipient-line-2', content.spenden?.payment?.recipientLines?.[1]);
+  setText('spenden-recipient-line-3', content.spenden?.payment?.recipientLines?.[2]);
   setText('spenden-btn-once', content.spenden?.buttons?.once);
   setText('spenden-btn-monthly', content.spenden?.buttons?.monthly);
   setText('spenden-btn-volunteer', content.spenden?.buttons?.volunteer);
